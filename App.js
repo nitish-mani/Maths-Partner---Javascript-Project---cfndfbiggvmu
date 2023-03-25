@@ -73,3 +73,6 @@ function delBtn(ele) {
   document.querySelector(".inputBox1").innerHTML = "";
   document.querySelector(".inputBox2").innerHTML = "";
 }
+function clearHist() {
+  localStorage.clear();
+}
